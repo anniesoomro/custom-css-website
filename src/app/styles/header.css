@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #4a4e69;
+    color: #f2e9e4;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navList a {
+    color: #f2e9e4;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .navList {
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+  }

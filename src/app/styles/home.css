@@ -1,0 +1,40 @@
+.main {
+   text-align: center;
+ }
+ 
+ .hero {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 40px;
+   color: #f2e9e4;
+   background-image: url('/home-image.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 400px;
+   position: relative;
+ }
+ 
+ .hero-content {
+   justify-content: space-between;
+   color: rgb(255, 251, 253);
+   padding: 20px;
+   border-radius: 10px;
+   margin-bottom: -20px;
+   font-weight: bolder;
+   font-style: italic;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: larger;
+ }
+ 
+ @media (max-width: 768px) {
+   .hero {
+     padding: 20px;
+     height: 300px;
+   }
+
+   .hero-content {
+    padding: 10px;
+   }
+ }

@@ -1,0 +1,13 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #22223b;
+    color: #f2e9e4;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 12px;
+    }
+  }
